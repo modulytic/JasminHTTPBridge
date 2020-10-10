@@ -8,7 +8,9 @@ import json
 import urllib
 import urllib2
 
-bridge_path = os.path.dirname(os.path.realpath(__file__))
+# MODIFY PREFIX HERE
+BRIDGE_PATH = "/root/JasminHTTPBridge"
+# DO NOT MODIFY BELOW UNLESS INTENTIONAL
 
 conf_opts = {}
 conf_path = os.path.join(bridge_path, "conf.json")

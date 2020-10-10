@@ -6,6 +6,8 @@ This does not currently support delivery receipts, but that is an important goal
 
 ## How to Use
 
+First, because of how Jasmin works, you will need to edit the variable bridge.py BRIDGE_PATH to be the correct path to the directory with your script and config.
+
 Create a file called conf.json after creating this directory. Fill in the following values:
 
 ```json
