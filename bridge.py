@@ -13,7 +13,7 @@ BRIDGE_PATH = "/root/JasminHTTPBridge"
 # DO NOT MODIFY BELOW UNLESS INTENTIONAL
 
 conf_opts = {}
-conf_path = os.path.join(bridge_path, "conf.json")
+conf_path = os.path.join(BRIDGE_PATH, "conf.json")
 with open(conf_path) as conf_f:
     conf_opts = json.load(conf_f)
 
