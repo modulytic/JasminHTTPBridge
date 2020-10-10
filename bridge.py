@@ -26,9 +26,9 @@ values = {
 http_data = urllib.urlencode(values)
 
 req = object()
-if conf_opts.method == "POST":
+if conf_opts["method"] == "POST":
     req = urllib2.Request(conf_opts["url"], http_data)
-elif conf_opts.method == "GET":
+elif conf_opts["method"] == "GET":
     req = urllib2.Request(conf_opts["url"] + "?" + http_data)
 
 if req != None:
